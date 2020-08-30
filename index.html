@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>ОСББ "Тест"</title>
+</head>
+
+<body>
+    <!-- HEADER block-->
+    <header class="header">
+
+        <div class="container">
+            <div class="header-contact">
+                <ul class="contact-list">
+                    <li class="contact-list__item">
+                        <a href="tel:+380000000000" class="contact-list__link">+38 (000) 000 00 00</a>
+                    </li>
+                    <li class="contact-list__item">
+                        <a href="mailto:test@i.ua" class="contact-list__link">test@i.ua</a>
+                    </li>
+                </ul>
+                <div class="logo">
+                    <a href="#" class="logo-link"><span>ОСББ</span>"Тест"</a>
+                </div>
+                <ul class="registration-list">
+                    <li class="registration-list__item">
+                        <a href="#" class="registration-list__link login-btn">Вход</a>
+                    </li>
+                    <li class="registration-list__item">
+                        <a href="№" class="registration-list__link registration-btn">Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-wrapper">
+            <div class="container ">
+                <nav class="header-nav">
+                    <ul class="header-nav-list nav-list">
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link nav-list__link--current">Главная</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Объявления</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Управление ОСМД</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Отчетность деятельности</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Форум для жителей</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Контакты</a>
+                        </li>
+                    </ul>
+                    <button class="hamburger__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER block ends-->
+
+    <!-- MAIN block -->
+    <main class="main">
+
+        <!-- SUBSCRIPTION block -->
+        <section class="subscription">
+            <div class="container ">
+                <div class="subscription-content">
+                    <h1 class="subscription-title">Зарегистрируйтесь сейчас <span>чтобы знать новости первым!</span>
+                    </h1>
+                    <form action="" class="subscription-form">
+                        <div class="subscription-group">
+                            <input type="text" name="name" class="subscription-input__name" placeholder="Ваше имя">
+                            <input type="text" name="email" class="subscription-input__email"
+                                placeholder="Ваш номер телефона">
+                            <button type="submit" class="subscription-submit__btn">Готово!</button>
+                        </div>
+                    </form>
+                    <ul class="subscription-list">
+                        <li class="subscription-list__item">
+                            <img src="../img/sub-list-1.svg" alt="Copybook icon">
+                            <span>1</span>
+                            <p>Регистрируетесь</p>
+                        </li>
+                        <li class="subscription-list__item">
+                            <img src="../img/sub-list-2.svg" alt="Radio icon">
+                            <span>2</span>
+                            <p>Вкурсе всех новостей</p>
+                        </li>
+                        <li class="subscription-list__item">
+                            <img src="../img/sub-list-3.svg" alt="Hand is taping button">
+                            <span>3</span>
+                            <p>Просто и понятно</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- SUBSCRIPTION block ends-->
+
+        <!-- GALLERY block -->
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-content">
+                    <h2 class="title">
+                        последние фото
+                    </h2>
+                    <p class="subtitle">Мы создаем новый стиль управления жильем! Чем наш стиль работы отличается от
+                        других? Мы создаем территорию для комфортного, безопасного жизни людей, доверивших управление
+                        своим домом Жилой управляющей компании.</p>
+                </div>
+                <div class="gallery-slider">
+                    <div class="gallery-slides">
+                        <div class="slide">
+                            <img src="./img/slide-1.jpg" alt="House">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/slide-2.jpg" alt="House">
+                        </div>
+                        <div class="slide">
+                            <img src="./img/slide-3.jpg" alt="House">
+                        </div>
+                    </div>
+                    <div class="slider__control">
+                        <button class="prev__btn"></button>
+                        <div class="slider__dots">
+                            <span class="slider__dot"></span>
+                            <span class="slider__dot slider__dot--current"></span>
+                            <span class="slider__dot"></span>
+                            <span class="slider__dot"></span>
+                        </div>
+                        <button class="next__btn"></button>
+                    </div>
+                    <a href="#" class="watch-all__btn button">Смотреть все ОСББ</a>
+                </div>
+            </div>
+        </section>
+        <!-- GALLERY block ends-->
+
+        <!-- SERVICE block -->
+        <section class="service">
+            <div class="container">
+                <div class="service-content">
+                    <h2 class="title">
+                        ИНФОРМАЦИЯ ПРО КОММУНАЛЬНЫЕ УСЛУГИ
+                    </h2>
+                    <div class="service-content__row">
+                        <div class="service-col__left">
+                            <p>Присоединение дома в ОСМД актуалено и для соседних домов, в которых уже успешно
+                                функционирует объединене.</p>
+                            <p>Совладельцы дома, желающих присоединиться к ОСМД, должны провести общее собрание, на
+                                которых
+                                утвердят форму управления</br>
+                                домом и решат присоединиться к ОСМД, с которым имеют общую придомовую территорию,
+                                элементы
+                                благоустройства и тому подобное.</p>
+                            <p>Далее надо письменно обратиться к председателю правления соответствующего ОСМД с просьбой
+                                рассмотреть вопрос о присоединении к
+                                ОСМД совладельцев дома.
+                                Правление созывает общее собрание ОСМД, на которых решает вопрос о присоединении.</p>
+                            <p>В случае положительного решения созывают общие общее собрание с участием совладельцев
+                                обеих
+                                домов.</br>
+                                Там утверждают новую редакцию устава совместного ОСМД, решают другие вопросы, связанные
+                                с
+                                текущей деятельностью ОСМД.
+                                Новая редакция устава подают госрегистратору.
+                            </p>
+                            <p>
+                                Третий вариант присоединения дома к созданного ОСМД - создание ассоциации ОСМД.
+                            </p>
+                        </div>
+                        <div class="service-col__right">
+                            <h3 class="service-list__title">ПОСТАЧАЛЬНИКИ ПОСЛУГ</h3>
+                            <span class="service-list__subtitle">(ПОДАТИ ПОКАЗНИКИ)</span>
+                            <ul class="service-list">
+                                <li class="service-item">Київенерго (електропостачання</li>
+                                <li class="service-item">Київтеплоенерго (тепло та ГВП)</li>
+                                <li class="service-item">Київводоканал (ХВП)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICE block ends-->
+
+        <!-- TARIFF block -->
+        <section class="tariff">
+            <div class="container">
+                <div class="tariff-content">
+                    <h2 class="title">тарифы</h2>
+                    <div class="tariff-row">
+                        <div class="tariff-col__left">
+                            <div class="tariff-group-1">
+                                <div>
+                                    <label for="square">Введите площадь вашего дома (кв/м)</label>
+                                    <input type="text" name="square" id="square" value="2000">
+                                </div>
+                                <div>
+                                    <label for="amount">Введите количество квартир</label>
+                                    <input type="text" name="amount" id="amount" value="56">
+                                </div>
+                            </div>
+                            <!-- TODO custom radio button -->
+
+                            <div class="tariff-group-2">
+                                <p>Количество месяцев</p>
+                                <div class="tariff-group-2__row">
+                                    <label for="month-amount-1">
+                                        <input type="radio" id="month-amount-1" name="month-amount" value="3" checked>
+                                        3 мес.</label>
+                                    <label for="month-amount-2">
+                                        <input type="radio" id="month-amount-2" name="month-amount" value="6">
+                                        6 мес.</label>
+                                    <label for="month-amount-3">
+                                        <input type="radio" id="month-amount-3" name="month-amount" value="12">
+                                        12 мес.</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tariff-col__right">
+                            <span>
+                                <sup>*</sup>Цена на услугу в целом - 600.00 грн.
+                            </span>
+                            <span>
+                                <sup>**</sup>Сумма на одну квартиру в месяц - 600.00 грн.
+                            </span>
+                            <p>
+                                Начиная с момента регистрации ОСМД на сайте предоставляется <span>90 дней
+                                    БЕСПЛАТНОГО</span>
+                                использования
+                                сервиса.
+                            </p>
+                            <p>Стоимость: 0.00 грн</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TARIFFS block ends-->
+        <!-- NEWS block -->
+        <section class="news">
+            <div class="container">
+                <h2 class="title">
+                    последние новости
+                </h2>
+                <div class="news-slider">
+                    <div class="news-slides">
+                        <div class="news-slide">
+
+                            <div class="news-slide__desc">
+                                <h3 class="news-slide__title">Повышение контроля руководства за деятельностью ОСББ.</h3>
+                            </div>
+
+                            <div class="news-slide__col">
+                                <p class="news-slide__text">
+                                    Информирование о текущем балансе, сохранение истории платежей, начисление
+                                    квартплат.
+                                    Информирование о текущем балансе, сохранение истории платежей, начисление
+                                    квартплат.
+                                    Информирование о текущем балансе, сохранение истории платежей, начисление
+                                    квартплат.
+                                </p>
+                                <p class="news-slide__text">
+                                    Информирование о текущем балансе, сохранение истории платежей, начисление
+                                    квартплат.Информирование о текущем балансе, сохранение истории платежей,
+                                    начисление
+                                    квартплат.
+                                </p>
+                                <a href="#" class="read-all__link">Читать полностью</a>
+                            </div>
+
+                            <div class="news-slide__img">
+                                <img src="./img/news-img.jpg" alt="House">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="slider__control">
+                        <button class="prev__btn"></button>
+                        <div class="slider__dots">
+                            <span class="slider__dot"></span>
+                            <span class="slider__dot slider__dot--current"></span>
+                            <span class="slider__dot"></span>
+                            <span class="slider__dot"></span>
+                        </div>
+                        <button class="next__btn"></button>
+                    </div>
+                    <a href="#" class="watch-all-news__btn button">смотреть все новости</a>
+                </div>
+            </div>
+        </section>
+        <!-- NEWS block ends-->
+
+    </main>
+    <!-- MAIN block ends-->
+
+    <!-- FOOTER block-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-col__left">
+                        <div class="footer-social">
+                            <h3 class="title">
+                                <span>ОСББ</span> "Тест"
+                            </h3>
+                            <p class="text">
+                                Огромное количество успешных проектов, не оставило нашу компанию без драгоценного опыта.
+                            </p>
+                            <p class="text">
+                                Мы профессионалы своего дела!
+                            </p>
+                            <ul class="social-list">
+                                <li class="social-item"><a href="#" class="social-link">Twitter</a></li>
+                                <li class="social-item"><a href="#" class="social-link">Facebook</a></li>
+                                <li class="social-item"><a href="#" class="social-link">Telegram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col__right">
+                        <div class="footer-row__right">
+
+                            <div class="footer-nav__group">
+                                <span class="footer-nav-group__title">Навигация</span>
+                                <nav class="footer-nav">
+                                    <ul class="footer-nav-list">
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link footer-nav__link--current">Главная</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link">Объявления</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link">Управление ОСМД</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link">Отчетность деятельности</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="footer-nav-list">
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link">Форум для жителей</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link">Контакты</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link">Регистрация</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a href="#" class="footer-nav__link">Войти</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="footer-contacts">
+                                <span class="footer-contacts__title">Контакты</span>
+                                <ul class="contact-list footer-contact__list">
+                                    <li class="contact-list__item footer-contact-list__item">
+                                        <a href="tel:+380000000000" class="contact-list__link">+38 (000) 000 00 00</a>
+                                    </li>
+                                    <li class="contact-list__item footer-contact-list__item">
+                                        <a href="mailto:test@i.ua" class="contact-list__link">test@i.ua</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER block ends-->
+</body>
+
+</html>
