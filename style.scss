@@ -6,6 +6,9 @@ $header-bg-color: #4B5464;
 $primary-font-color: #9CA3AB;
 $secondary-font-color:#6E788D;
 
+/*FONTS*/
+@import './fonts';
+
 /* Global styles*/
 body,
 html {
@@ -71,6 +74,7 @@ img {
     width: 300px;
     margin: 0;
     padding: 0;
+    padding-left: 30px;
 
     list-style: none;
 
@@ -103,6 +107,7 @@ img {
             transform: translateY(-50%);
 
             background: url('../img/phone-icon.svg') no-repeat center center;
+
         }
     }
 
@@ -1397,6 +1402,7 @@ img {
     flex-direction: column;
 
     width: auto;
+    padding-left: 0;
 
     color: $white;
 
