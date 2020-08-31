@@ -140,7 +140,6 @@ img {
   width: 300px;
   margin: 0;
   padding: 0;
-  padding-left: 30px;
   list-style: none;
   font-size: 14px;
   font-weight: 600;
@@ -325,9 +324,14 @@ img {
   margin-bottom: 62px;
   text-align: center;
   color: #fff;
+  font-family: 'Muli', sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 44px;
+}
+
+.subscription-title span {
+  font-weight: 400;
 }
 
 .subscription-content {
@@ -367,6 +371,7 @@ img {
   color: #9CA3AB;
   border-radius: 50px;
   background-color: #fff;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -377,6 +382,7 @@ img {
   padding: 0 15px;
   border: 1px solid #8F8F8F;
   border-radius: 50px;
+  font-family: inherit;
 }
 
 .subscription-input__email {
@@ -385,6 +391,7 @@ img {
   padding: 0 15px;
   border: 1px solid #8F8F8F;
   border-radius: 50px;
+  font-family: inherit;
 }
 
 .subscription-list {
@@ -399,6 +406,7 @@ img {
   padding: 0;
   list-style: none;
   color: #fff;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -461,6 +469,7 @@ img {
   border: none;
   border-radius: 50px;
   background-color: #86BC42;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 600;
 }
@@ -473,6 +482,7 @@ img {
 .gallery-content {
   padding: 0 15px;
   text-align: center;
+  font-family: 'Muli', sans-serif;
 }
 
 .gallery-content .title {
@@ -597,6 +607,7 @@ img {
   color: #FFFFFF;
   border-radius: 50px;
   background-color: #86BC42;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 18px;
@@ -639,6 +650,10 @@ img {
   height: 372px;
   content: '';
   background: url("../img/news-flower.png") no-repeat center center/contain;
+}
+
+.service-content {
+  font-family: 'Muli', sans-serif;
 }
 
 .service-content .title {
@@ -716,6 +731,7 @@ img {
   padding: 0;
   list-style: none;
   color: #9CA3AB;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -829,6 +845,7 @@ img {
   letter-spacing: 0.045em;
   text-transform: uppercase;
   color: #6E788D;
+  font-family: 'Muli', sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;
@@ -970,6 +987,7 @@ img {
 .news {
   padding-top: 66px;
   padding-bottom: 56px;
+  font-family: 'Muli', sans-serif;
 }
 
 .news .container {
@@ -1058,6 +1076,7 @@ img {
   letter-spacing: 0.045em;
   text-transform: uppercase;
   color: #6E788D;
+  font-family: 'Muli', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -1174,6 +1193,7 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: 'Muli', sans-serif;
 }
 
 .social-link {
@@ -1212,6 +1232,7 @@ img {
   margin-bottom: 21px;
   text-transform: uppercase;
   color: #fff;
+  font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 18px;
@@ -1278,6 +1299,7 @@ img {
   display: inline-block;
   margin-bottom: 21px;
   color: #fff;
+  font-family: 'Muli', sans-serif;
 }
 
 .footer-contact__list {
@@ -1521,12 +1543,10 @@ img {
   .subscription-input__name {
     width: 114px;
     height: 30px;
-    font-size: inherit;
   }
   .subscription-input__email {
     width: 162px;
     height: 30px;
-    font-size: inherit;
   }
   .subscription-submit__btn {
     padding-top: 8px;
@@ -1865,6 +1885,10 @@ img {
     padding-top: 55px;
     padding-bottom: 39px;
   }
+  .service .title {
+    max-width: 240px;
+    margin: 0 auto;
+  }
   .service .container {
     width: 100%;
     padding: 0 15px;
@@ -1896,6 +1920,7 @@ img {
     width: auto;
     padding: 30px 10px 30px 9px;
   }
+  /*TARIFF style block*/
   .tariff .inner-wrapper {
     padding: 33px 0;
   }
