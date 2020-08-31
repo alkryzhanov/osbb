@@ -39,12 +39,17 @@ img {
     height: auto;
 }
 
+.inner-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    background-color: $header-bg-color;
+}
+
 /*HEADER*/
 
 .header {
     position: relative;
-
-    background-color: $header-bg-color;
 }
 
 .header-wrapper {
@@ -52,8 +57,9 @@ img {
 }
 
 .container {
-    max-width: 1145px;
+    max-width: 1176px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -276,10 +282,15 @@ img {
 
 /*SUBSCRIPTION style*/
 .subscription {
-    min-height: 630px;
-    padding-top: 84px;
 
-    background: url('../img/subscription-bg.jpg') no-repeat center center/cover;
+    // background: url('../img/subscription-bg.jpg') no-repeat center center/cover;
+    .inner-wrapper {
+        min-height: 630px;
+        padding-top: 84px;
+
+        background: url('../img/subscription-bg.jpg') no-repeat center center/cover;
+        background-color: transparent;
+    }
 }
 
 .subscription-title {
@@ -447,7 +458,11 @@ img {
     padding-top: 68px;
 }
 
+
+
 .gallery-content {
+    padding: 0 15px;
+
     text-align: center;
 
     .title {
@@ -799,7 +814,7 @@ img {
 
         content: '';
 
-        background: url(../img/service-list-icon.png) no-repeat center center;
+        background: url(../img/service-list-icon.png) no-repeat center center/contain;
     }
 
     &-item::after {
@@ -835,9 +850,12 @@ img {
 /*TARIFF style*/
 
 .tariff {
-    padding: 48px 0;
 
-    background: url('../img/tariff-bg.jpg') no-repeat center center/cover;
+    .inner-wrapper {
+        padding: 48px 0;
+
+        background: url('../img/tariff-bg.jpg') no-repeat center center/cover;
+    }
 }
 
 
@@ -1091,26 +1109,6 @@ img {
 
     height: 425px;
 
-    &__desc {
-        // position: relative;
-        width: 558px;
-    }
-
-    // &__desc::before {
-    //     position: absolute;
-    //     top: 224px;
-    //     left: -157px;
-
-    //     display: block;
-
-    //     width: 225px;
-    //     height: 320px;
-
-    //     content: '';
-
-    //     background: url('../img/news-flower.png') no-repeat center center;
-    // }
-
     &__img {
         width: 579px;
         margin-right: -69px;
@@ -1122,6 +1120,7 @@ img {
 
 
     &__title {
+        max-width: 380px;
         margin: 0;
         margin-bottom: 37px;
         padding-top: 27px;
