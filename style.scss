@@ -80,7 +80,6 @@ img {
     width: 300px;
     margin: 0;
     padding: 0;
-    padding-left: 30px;
 
     list-style: none;
 
@@ -302,9 +301,14 @@ img {
 
     color: $white;
 
+    font-family: 'Muli', sans-serif;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 44px;
+
+    span {
+        font-weight: 400;
+    }
 }
 
 .subscription-content {
@@ -337,6 +341,7 @@ img {
     border-radius: 50px;
     background-color: $white;
 
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -349,6 +354,8 @@ img {
 
     border: 1px solid #8F8F8F;
     border-radius: 50px;
+
+    font-family: inherit;
 }
 
 .subscription-input__email {
@@ -358,6 +365,8 @@ img {
 
     border: 1px solid #8F8F8F;
     border-radius: 50px;
+
+    font-family: inherit;
 }
 
 
@@ -373,6 +382,7 @@ img {
 
     color: $white;
 
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -449,6 +459,7 @@ img {
     border-radius: 50px;
     background-color: $primary;
 
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: 600;
 }
@@ -464,6 +475,8 @@ img {
     padding: 0 15px;
 
     text-align: center;
+
+    font-family: 'Muli', sans-serif;
 
     .title {
         position: relative;
@@ -596,6 +609,7 @@ img {
     border-radius: 50px;
     background-color: $primary;
 
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
@@ -651,9 +665,9 @@ img {
     }
 }
 
-
-
 .service-content {
+    font-family: 'Muli', sans-serif;
+
     .title {
         position: relative;
 
@@ -737,6 +751,7 @@ img {
 
     color: #9CA3AB;
 
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -884,6 +899,7 @@ img {
 
         color: #6E788D;
 
+        font-family: 'Muli', sans-serif;
         font-size: 20px;
         font-weight: 600;
         line-height: 25px;
@@ -957,17 +973,79 @@ img {
 
 .tariff-group-2__row {
     display: flex;
-    justify-content: space-between;
-
-    width: 305px;
+    // justify-content: space-between;
+    // width: 305px;
 
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
 
+
+
     label {
-        width: 86px;
+        position: relative;
+
+        display: inline-block;
+
+        margin-right: 30px;
+        padding-left: 30px;
+
+        span {
+            position: absolute;
+            top: 50%;
+            left: 0;
+
+            display: block;
+
+            width: 15px;
+            height: 15px;
+
+            content: '';
+            transform: translateY(-50%);
+
+            border: 1px solid #6E788D;
+            border-radius: 50%;
+
+
+        }
     }
+
+    label:last-of-type {
+        margin-right: 0;
+    }
+
+    input {
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 0;
+
+        transform: translateY(-50%);
+
+        opacity: 0;
+    }
+
+    input:checked+span {
+        border-color: #86BC42;
+    }
+
+    input:checked+span:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        display: inline-block;
+
+        width: 9px;
+        height: 9px;
+
+        content: '';
+        transform: translate(-50%, -50%);
+
+        border-radius: 50%;
+        background-color: #86BC42;
+    }
+
 }
 
 .tariff-col__right {
@@ -1028,7 +1106,8 @@ img {
     padding-top: 66px;
     padding-bottom: 56px;
 
-    // padding-bottom: 56px;
+    font-family: 'Muli', sans-serif;
+
     .container {
         position: relative;
     }
@@ -1130,6 +1209,7 @@ img {
 
         color: #6E788D;
 
+        font-family: 'Muli', sans-serif;
         font-size: 16px;
         font-weight: 600;
         line-height: 20px;
@@ -1264,6 +1344,8 @@ img {
     padding: 0;
 
     list-style: none;
+
+    font-family: 'Muli', sans-serif;
 }
 
 
@@ -1305,6 +1387,7 @@ img {
 
     color: $white;
 
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
@@ -1371,21 +1454,7 @@ img {
 
 }
 
-// .footer-contacts::after {
-//     position: absolute;
-//     right: -164px;
-//     bottom: -42px;
 
-//     display: block;
-
-//     width: 225px;
-//     height: 320px;
-
-//     content: '';
-
-//     background: url('../img/news-flower.png') no-repeat left top/contain;
-
-// }
 
 
 .footer-contacts__title {
@@ -1394,6 +1463,8 @@ img {
     margin-bottom: 21px;
 
     color: $white;
+
+    font-family: 'Muli', sans-serif;
 }
 
 .footer-contact__list {
