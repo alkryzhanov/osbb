@@ -276,6 +276,10 @@ img {
         color: $primary;
     }
 
+    &__link:hover {
+        color: $primary;
+    }
+
 
 }
 
@@ -973,8 +977,6 @@ img {
 
 .tariff-group-2__row {
     display: flex;
-    // justify-content: space-between;
-    // width: 305px;
 
     font-size: 16px;
     font-weight: 400;
@@ -988,14 +990,18 @@ img {
         display: inline-block;
 
         margin-right: 30px;
-        padding-left: 30px;
+        padding-left: 20px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
 
         span {
             position: absolute;
             top: 50%;
             left: 0;
 
-            display: block;
+            display: inline-block;
 
             width: 15px;
             height: 15px;
@@ -1003,49 +1009,32 @@ img {
             content: '';
             transform: translateY(-50%);
 
-            border: 1px solid #6E788D;
-            border-radius: 50%;
+            background: url('../img/radio-btn.svg') no-repeat center center;
 
 
         }
+
+        input {
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 0;
+
+            transform: translateY(-50%);
+
+            opacity: 0;
+        }
+
+        input:checked+span {
+            background-image: url('../img/radio-btn--checked.svg');
+        }
+
     }
 
-    label:last-of-type {
-        margin-right: 0;
-    }
+}
 
-    input {
-        position: absolute;
-        z-index: -1;
-        top: 50%;
-        left: 0;
-
-        transform: translateY(-50%);
-
-        opacity: 0;
-    }
-
-    input:checked+span {
-        border-color: #86BC42;
-    }
-
-    input:checked+span:before {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-
-        display: inline-block;
-
-        width: 9px;
-        height: 9px;
-
-        content: '';
-        transform: translate(-50%, -50%);
-
-        border-radius: 50%;
-        background-color: #86BC42;
-    }
-
+input:focus+span::before {
+    border-color: #80bdff;
 }
 
 .tariff-col__right {
@@ -1283,14 +1272,14 @@ img {
 
 .footer-content {
     display: flex;
-    flex-flow: row wrap;
+    // flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .footer-col {
 
     &__left {
-        width: 264px;
+        max-width: 264px;
         padding-bottom: 15px;
 
 
@@ -1417,6 +1406,13 @@ img {
         color: $primary;
         background: url('../img/footer-nav-list-arrow-green.svg') no-repeat 3px center;
     }
+
+    &__link:hover {
+        color: $primary;
+        background: url('../img/footer-nav-list-arrow-green.svg') no-repeat 3px center;
+    }
+
+
 }
 
 .footer-nav-list {
