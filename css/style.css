@@ -150,7 +150,11 @@ img {
   position: relative;
   display: inline-block;
   padding-left: 24px;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
 }
 
 .contact-list__item:first-child .contact-list__link::before {
@@ -196,7 +200,11 @@ img {
 }
 
 .logo-link {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
 }
 
 .logo-link span {
@@ -217,13 +225,21 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   font-size: 14px;
   font-weight: 600;
 }
 
 .registration-list__link {
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
 }
 
 .login-btn {
@@ -265,7 +281,11 @@ img {
   position: relative;
   min-height: 35px;
   padding-top: 8px;
+<<<<<<< HEAD
   background-color: #fff;
+=======
+  background-color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
 }
 
 .hamburger__btn {
@@ -327,7 +347,11 @@ img {
   margin: 0;
   margin-bottom: 62px;
   text-align: center;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   font-family: 'Muli', sans-serif;
   font-size: 30px;
   font-weight: 600;
@@ -374,7 +398,11 @@ img {
   padding: 0 18px;
   color: #9CA3AB;
   border-radius: 50px;
+<<<<<<< HEAD
   background-color: #fff;
+=======
+  background-color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -409,7 +437,11 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -449,7 +481,11 @@ img {
   width: 96px;
   height: 1px;
   content: '';
+<<<<<<< HEAD
   background-color: #fff;
+=======
+  background-color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
 }
 
 .subscription-list__item:nth-child(2)::before {
@@ -469,7 +505,11 @@ img {
   padding: 12px 0 11px 0;
   text-align: center;
   text-transform: uppercase;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   border: none;
   border-radius: 50px;
   background-color: #86BC42;
@@ -1265,7 +1305,11 @@ input:focus + span::before {
   display: inline-block;
   margin-bottom: 21px;
   text-transform: uppercase;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -1288,7 +1332,11 @@ input:focus + span::before {
 .footer-nav__link {
   display: inline-block;
   padding-left: 15px;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   background: url("../img/footer-nav-list-arrow-white.svg") no-repeat 3px center;
 }
 
@@ -1318,7 +1366,11 @@ input:focus + span::before {
 .footer-contacts {
   position: relative;
   width: 167px;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
 }
 
 .footer-contacts::before {
@@ -1337,7 +1389,11 @@ input:focus + span::before {
 .footer-contacts__title {
   display: inline-block;
   margin-bottom: 21px;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
   font-family: 'Muli', sans-serif;
 }
 
@@ -1351,7 +1407,11 @@ input:focus + span::before {
           flex-direction: column;
   width: auto;
   padding-left: 0;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: yellow;
+>>>>>>> a59eff9069032756d8b69e448c3f706fa1b4b501
 }
 
 .footer-contact-list__item {
