@@ -150,7 +150,7 @@ img {
   position: relative;
   display: inline-block;
   padding-left: 24px;
-  color: red;
+  color: #fff;
 }
 
 .contact-list__item:first-child .contact-list__link::before {
@@ -196,7 +196,7 @@ img {
 }
 
 .logo-link {
-  color: red;
+  color: #fff;
 }
 
 .logo-link span {
@@ -217,13 +217,13 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: red;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
 }
 
 .registration-list__link {
-  color: red;
+  color: #fff;
 }
 
 .login-btn {
@@ -265,7 +265,7 @@ img {
   position: relative;
   min-height: 35px;
   padding-top: 8px;
-  background-color: red;
+  background-color: #fff;
 }
 
 .hamburger__btn {
@@ -327,7 +327,7 @@ img {
   margin: 0;
   margin-bottom: 62px;
   text-align: center;
-  color: red;
+  color: #fff;
   font-family: 'Muli', sans-serif;
   font-size: 30px;
   font-weight: 600;
@@ -374,7 +374,7 @@ img {
   padding: 0 18px;
   color: #9CA3AB;
   border-radius: 50px;
-  background-color: red;
+  background-color: #fff;
   font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -409,7 +409,7 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: red;
+  color: #fff;
   font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -449,7 +449,7 @@ img {
   width: 96px;
   height: 1px;
   content: '';
-  background-color: red;
+  background-color: #fff;
 }
 
 .subscription-list__item:nth-child(2)::before {
@@ -469,7 +469,7 @@ img {
   padding: 12px 0 11px 0;
   text-align: center;
   text-transform: uppercase;
-  color: red;
+  color: #fff;
   border: none;
   border-radius: 50px;
   background-color: #86BC42;
@@ -1265,7 +1265,7 @@ input:focus + span::before {
   display: inline-block;
   margin-bottom: 21px;
   text-transform: uppercase;
-  color: red;
+  color: #fff;
   font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -1288,7 +1288,7 @@ input:focus + span::before {
 .footer-nav__link {
   display: inline-block;
   padding-left: 15px;
-  color: red;
+  color: #fff;
   background: url("../img/footer-nav-list-arrow-white.svg") no-repeat 3px center;
 }
 
@@ -1318,7 +1318,7 @@ input:focus + span::before {
 .footer-contacts {
   position: relative;
   width: 167px;
-  color: red;
+  color: #fff;
 }
 
 .footer-contacts::before {
@@ -1337,7 +1337,7 @@ input:focus + span::before {
 .footer-contacts__title {
   display: inline-block;
   margin-bottom: 21px;
-  color: red;
+  color: #fff;
   font-family: 'Muli', sans-serif;
 }
 
@@ -1351,7 +1351,7 @@ input:focus + span::before {
           flex-direction: column;
   width: auto;
   padding-left: 0;
-  color: red;
+  color: #fff;
 }
 
 .footer-contact-list__item {
